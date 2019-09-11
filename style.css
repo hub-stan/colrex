@@ -1,0 +1,161 @@
+body{
+	font-family:Helvetica;
+	color:#333333;
+	background-color: #DCDEE1;
+	
+	
+}
+
+a:link {
+    text-decoration: none;
+	color:#4383AF;
+}
+
+
+h1{
+	font-size:40px;
+	margin-left:30px;
+}
+h4{
+	font-size:13px;
+	font-weight:normal;
+	
+}
+input[type=number]{
+    width: 30px;
+	height:25px;
+	padding-left: 5px;
+	
+
+} 
+input[type=button]{
+    width: 85px;
+	height:25px;
+	padding-left: 0px;
+	color:white;
+	background-color:green;
+	border: 0px ;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size:bold;
+	
+} 
+input[type=button]:hover{
+	
+	background-color: #2F4766;
+	
+}
+#text{
+	float:left;
+	margin:0px 50px 0px 30px;
+	width: 400px;
+	text-align:justify;	
+}
+#product{
+	margin:0px 20px 20px 0px;
+	border: 1px solid grey;
+	padding: 10px 10px 10px 10px;
+	float:left;
+	height:260px;
+	width:180px;
+	
+}
+.content{
+	width:960px;
+	height:850px;
+	background-color:white;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top:40px;
+	
+	
+}
+#bar{
+	
+	height:38px;
+	width:960px;
+	margin: 0px 0px 0px 0px;
+}
+#bar2{
+	
+	height:38px;
+	width:1000px;
+	margin: 0px 0px 0px -40px;
+}
+#logo{
+	padding: 5px 0px 5px 30px;
+	float:left;
+}
+#logo1{
+	font-size:35px;
+	color:white;
+	background-color:orange;
+	width:84px;
+	height:41px;
+	text-align:right;
+	float:left;
+	border:1px solid orange;
+}
+#logo2{
+	font-size:35px;
+	color:black;
+	background-color:white;
+	width:84px;
+	height:41px;
+	float:left;	
+	text-align:left;
+	border:1px solid orange;
+}
+#icon{
+	float:right;
+	padding: 15px 30px 15px 30px;
+	
+}
+.basket{
+	font-size:12px;	
+	color:white;
+	float:right;
+	background-color:green;
+	padding: 19px 22px 19px 22px;
+}
+#price{
+	margin:10px 15px 10px 0px;
+	font-weight:bold;
+}
+
+
+
+
+lu{
+	list-style-type:none;
+	
+	
+	
+}
+li{
+	float: left;
+	display: block;	
+	padding:15px 52.89px;	
+	border-top:1px solid blue ;
+	border-bottom:1px solid blue ;
+	
+}
+li:hover{
+	background-color:blue;
+	color:white;
+	border-bottom:3px solid black ;
+}
+#foots{
+	width:960px;
+	height:30px;
+	background-color:#DCDEE1;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	float:bottom;
+	border-top:5px solid blue;
+	text-align:right;
+	font-size:12px;
+	padding-top:10px;
+}
